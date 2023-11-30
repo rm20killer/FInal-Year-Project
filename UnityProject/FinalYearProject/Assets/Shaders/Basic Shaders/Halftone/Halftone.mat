@@ -76,7 +76,7 @@ Material:
     - _Softness: 1
     - _USE_SCREEN_SPACE: 1
     m_Colors:
-    - _Base_color: {r: 0.48871484, g: 0.8301887, b: 0.83018863, a: 0}
+    - _Base_color: {r: 0.6845141, g: 0.8301887, b: 0.8301887, a: 0}
     - _Outline_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Outline_color: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
