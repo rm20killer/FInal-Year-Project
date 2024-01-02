@@ -67,7 +67,7 @@ Material:
     - _Circle_Density: 38.45
     - _Falloff_Threshold: 3
     - _Lit_Threshold: 1.8
-    - _Outline_Size: 1000
+    - _Outline_Size: 1e+20
     - _Outline_width: 13.5
     - _QueueControl: 0
     - _QueueOffset: 0
