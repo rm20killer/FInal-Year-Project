@@ -64,7 +64,7 @@ MonoBehaviour:
   DefaultPreset: " <sbspreset pkgurl=\"pkg://Brush_strokes\" label=\"\" >\n  <presetinput
     identifier=\"$outputsize\" uid=\"1192950856\" type=\"8\" value=\"10,10\" />\n
     </sbspreset>\n"
-  MaterialShader: Shader Graphs/PaintStoke_shader
+  MaterialShader: Shader Graphs/PaintStoke_shader_unlit
   RenderTextures: 0
   OutputRemaped: 0
   Presets: []

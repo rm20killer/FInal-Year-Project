@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Shaders/HandPainted/Substance_mats/Arcane_wall.sbsar
+  RawData: {fileID: -244192453324840774, guid: 84ffea818ec121840ae559528528657b, type: 3}
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: 956e4b20-07c3-4ebb-a681-18522e358f71
+  Index: 0
+  Input:
+  - rid: 7353753737581035566
+  - rid: 7353753737581035567
+  - rid: 7353753737581035568
+  - rid: 7353753737581035569
+  - rid: 7353753737581035570
+  - rid: 7353753737581035571
+  - rid: 7353753737581035572
+  - rid: 7353753737581035573
+  - rid: 7353753737581035574
+  - rid: 7353753737581035575
+  - rid: 7353753737581035576
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 5
+    Description:
+      Identifier: Height
+      Label: Height
+      Index: 0
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 2800000, guid: eb9da24a13cba334c84bba82f751724c, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  - Index: 1
+    VirtualOutputIndex: 6
+    Description:
+      Identifier: Normal
+      Label: Normal
+      Index: 1
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 2800000, guid: 91618bbbb4d4c754983615687f807309, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  - Index: 2
+    VirtualOutputIndex: 7
+    Description:
+      Identifier: Wall_AO
+      Label: Wall_AO
+      Index: 2
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 2800000, guid: a7966d176164abb4ba00fc9964877acb, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  - Index: 3
+    VirtualOutputIndex: 8
+    Description:
+      Identifier: Base_colour
+      Label: Base_colour
+      Index: 3
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 2800000, guid: 782fa2be224758b48bf1c7405dca4095, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  - Index: 4
+    VirtualOutputIndex: 9
+    Description:
+      Identifier: Blender_opacity
+      Label: Blender_opacity
+      Index: 4
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 2800000, guid: df70dd1437cfe5449b2d202062b87156, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  HasThumbnail: 0
+  CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Arcane_wall\" label=\"\" >\n  <presetinput
+    identifier=\"$outputsize\" uid=\"1039425989\" type=\"8\" value=\"11,11\" />\n 
+    <presetinput identifier=\"$randomseed\" uid=\"1787197335\" type=\"4\" value=\"8293\"
+    />\n  <presetinput identifier=\"x_amount\" uid=\"1578316571\" type=\"4\" value=\"20\"
+    />\n  <presetinput identifier=\"luminance_random\" uid=\"1578316681\" type=\"0\"
+    value=\"0.523\" />\n  <presetinput identifier=\"top_offset\" uid=\"1578317635\"
+    type=\"1\" value=\"0,-0.2\" />\n  <presetinput identifier=\"Bottom_offset\" uid=\"1578313897\"
+    type=\"1\" value=\"0,-0.48\" />\n  <presetinput identifier=\"Top_offet_wall\"
+    uid=\"1578314290\" type=\"1\" value=\"0,0.29\" />\n  <presetinput identifier=\"Middle_Size\"
+    uid=\"1577850443\" type=\"1\" value=\"1,0.03\" />\n  <presetinput identifier=\"Bottom_size\"
+    uid=\"1577850820\" type=\"1\" value=\"1,0.05\" />\n </sbspreset>\n"
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 1
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: cd0c63aacf28d9c469bf8fdab2416e99, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://Arcane_wall\" label=\"\" >\n  <presetinput
+    identifier=\"$outputsize\" uid=\"1039425989\" type=\"8\" value=\"10,10\" />\n 
+    <presetinput identifier=\"$randomseed\" uid=\"1787197335\" type=\"4\" value=\"8293\"
+    />\n  <presetinput identifier=\"x_amount\" uid=\"1578316571\" type=\"4\" value=\"20\"
+    />\n  <presetinput identifier=\"luminance_random\" uid=\"1578316681\" type=\"0\"
+    value=\"0.523\" />\n  <presetinput identifier=\"top_offset\" uid=\"1578317635\"
+    type=\"1\" value=\"0,-0.25\" />\n  <presetinput identifier=\"Bottom_offset\"
+    uid=\"1578313897\" type=\"1\" value=\"0,-0.46\" />\n  <presetinput identifier=\"Top_offet_wall\"
+    uid=\"1578314290\" type=\"1\" value=\"0,0.28\" />\n </sbspreset>\n"
+  MaterialShader: Shader Graphs/Hand_painted_wall
+  RenderTextures: 0
+  OutputRemaped: 0
+  Presets: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 7353753737581035566
+      type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 0
+        Description:
+          Identifier: $outputsize
+          Label: $outputsize
+          GuiGroup: 
+          GuiDescription: 
+          Type: 5
+          WidgetType: 0
+        Data: {x: 11, y: 11}
+        NumericalDescription:
+          DefaultValue: {x: 8, y: 8}
+          MinValue: {x: 0, y: 0}
+          MaxValue: {x: 1, y: 1}
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035567
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 1
+        Description:
+          Identifier: $randomseed
+          Label: $randomseed
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 0
+        Data: 8293
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035568
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 2
+        Description:
+          Identifier: Wall_1_outputcolor
+          Label: Wall_1_outputcolor
+          GuiGroup: 
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.372549, y: 0.258824, z: 0.129412, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.372549, y: 0.258824, z: 0.129412, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035569
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 3
+        Description:
+          Identifier: Wall_2_outputcolor
+          Label: Wall_2_outputcolor
+          GuiGroup: 
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.47451, y: 0.427451, z: 0.32549, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.47451, y: 0.427451, z: 0.32549, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035570
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 4
+        Description:
+          Identifier: x_amount
+          Label: X Amount
+          GuiGroup: 
+          GuiDescription: Amount of patterns on the X axis.
+          Type: 4
+          WidgetType: 1
+        Data: 20
+        NumericalDescription:
+          DefaultValue: 13
+          MinValue: 1
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035571
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 5
+        Description:
+          Identifier: luminance_random
+          Label: Luminance Random
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.523
+        NumericalDescription:
+          DefaultValue: 0.65
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035572
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 6
+        Description:
+          Identifier: top_offset
+          Label: top_Offset
+          GuiGroup: 
+          GuiDescription: The <b>Offset</b> parameter defines the 2D displacement
+            of the image
+          Type: 1
+          WidgetType: 1
+        Data: {x: 0, y: -0.2}
+        NumericalDescription:
+          DefaultValue: {x: 0, y: -0.0448}
+          MinValue: {x: -0.5, y: -0.5}
+          MaxValue: {x: 0.5, y: 0.5}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035573
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 7
+        Description:
+          Identifier: Bottom_offset
+          Label: Bottom_Offset
+          GuiGroup: 
+          GuiDescription: The <b>Offset</b> parameter defines the 2D displacement
+            of the image
+          Type: 1
+          WidgetType: 1
+        Data: {x: 0, y: -0.48}
+        NumericalDescription:
+          DefaultValue: {x: 0, y: -0.4731}
+          MinValue: {x: -0.5, y: -0.5}
+          MaxValue: {x: 0.5, y: 0.5}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035574
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 8
+        Description:
+          Identifier: Top_offet_wall
+          Label: Top_offet_wall
+          GuiGroup: 
+          GuiDescription: The <b>Offset</b> parameter defines the 2D displacement
+            of the image
+          Type: 1
+          WidgetType: 1
+        Data: {x: 0, y: 0.29}
+        NumericalDescription:
+          DefaultValue: {x: 0, y: 0.466}
+          MinValue: {x: -0.5, y: -0.5}
+          MaxValue: {x: 0.5, y: 0.5}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035575
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 9
+        Description:
+          Identifier: Middle_Size
+          Label: Middle_Size
+          GuiGroup: 
+          GuiDescription: 
+          Type: 1
+          WidgetType: 1
+        Data: {x: 1, y: 0.03}
+        NumericalDescription:
+          DefaultValue: {x: 1, y: 0.09}
+          MinValue: {x: 0, y: 0}
+          MaxValue: {x: 1, y: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753737581035576
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 10
+        Description:
+          Identifier: Bottom_size
+          Label: Bottom_size
+          GuiGroup: 
+          GuiDescription: 
+          Type: 1
+          WidgetType: 1
+        Data: {x: 1, y: 0.05}
+        NumericalDescription:
+          DefaultValue: {x: 1, y: 0.09}
+          MinValue: {x: 0, y: 0}
+          MaxValue: {x: 1, y: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []

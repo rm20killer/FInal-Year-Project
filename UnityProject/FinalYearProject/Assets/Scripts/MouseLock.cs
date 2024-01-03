@@ -9,12 +9,12 @@ public class MouseLock : MonoBehaviour
     //public Transform Gun;
     float xRotation = 0f;
     void Start()
-
     {
+        //set fps to unlimited
+        Application.targetFrameRate = 300;
         Cursor.lockState = CursorLockMode.Locked;
     }
     void Update()
-
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSpeed * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSpeed * Time.deltaTime;
