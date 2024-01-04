@@ -121,33 +121,35 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Location1: 0
-    - _Location2: 0.176
-    - _Location3: 0.463
-    - _Location4: 0.541
-    - _Location5: 0.821
+    - _Location2: 0.265
+    - _Location3: 0.532
+    - _Location4: 0.713
+    - _Location5: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Scale_x: 1
+    - _Scale_y: 1
     - _Smoothness: 1.83
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Specular_Smoothness: 2.81
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Strength: 0.61
+    - _Strength: 2
     - _Surface: 0
     - _USE_SCREEN_SPACE: 0
-    - _Use_Gradient: 0
+    - _Use_Gradient: 1
     - _Use_SunLight: 1
     - _Use_colour: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.7754228, g: 0.7921569, b: 0.2862745, a: 1}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _Color_overlay: {r: 0, g: 0.7735849, b: 0.2960996, a: 0}
     - _Colour1: {r: 0.8076232, g: 0.19241717, b: 0.8679245, a: 0}
     - _Colour2: {r: 0.04943929, g: 0.6830357, b: 0.95283014, a: 0}

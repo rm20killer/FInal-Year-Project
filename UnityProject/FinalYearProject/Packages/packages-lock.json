@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cyanilux.shadergraph-variables": {
+      "version": "https://github.com/Cyanilux/ShaderGraphVariables.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8a51583acf08572545d8e7e13e94d546eb7ca442"
+    },
     "com.unity.burst": {
       "version": "1.8.7",
       "depth": 1,

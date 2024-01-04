@@ -37,11 +37,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Overlay_alpha:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: df70dd1437cfe5449b2d202062b87156, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Paint_stoke:
         m_Texture: {fileID: 2800000, guid: cc6ed2a6a23eb4c4f81d9055f0e0651c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_0030f3773a474513ba2ca6aba9f0b1b9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 91618bbbb4d4c754983615687f807309, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_56f8d6cac26c46f48fc095587f4dbfbf_Texture_1_Texture2D:
@@ -67,19 +71,20 @@ Material:
     - _Location3: 0.6
     - _Location4: 0.737
     - _Location5: 1
-    - _Overlay_Strength: 0.6
-    - _Paint_strength: 0.98
+    - _Normal_Stength: 1
+    - _Overlay_Strength: 0.21
+    - _Paint_strength: 1.09
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale_x: 2.5
     - _Scale_y: 1
-    - _Smoothness: 2.77
-    - _Specular_Smoothness: 4.71
-    - _Strength: 0
+    - _Smoothness: 1.17
+    - _Specular_Smoothness: 4
+    - _Strength: 1.66
     - _USE_SCREEN_SPACE: 0
     - _Use_sunLight: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.6556604, b: 0.6556604, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Colour1: {r: 0.49411762, g: 0.41176468, b: 0.30588236, a: 1}
     - _Colour2: {r: 0.44705886, g: 0.36470586, b: 0.27450976, a: 1}
     - _Colour3: {r: 0.27450976, g: 0.25098038, b: 0.18039218, a: 1}

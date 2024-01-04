@@ -41,6 +41,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Paint_stoke:
         m_Texture: {fileID: 2800000, guid: cc6ed2a6a23eb4c4f81d9055f0e0651c, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -64,6 +68,7 @@ Material:
     - _Location3: 0.43
     - _Location4: 0.66
     - _Location5: 1
+    - _Overlay_Opactity: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 4
@@ -83,6 +88,6 @@ Material:
     - _Colour3: {r: 0.8584906, g: 0.7248576, b: 0.8132278, a: 1}
     - _Colour4: {r: 0.10980389, g: 0.39124337, b: 1, a: 1}
     - _Colour5: {r: 1, g: 1, b: 1, a: 1}
-    - _Diffuse_Colour: {r: 0.6226415, g: 0.4493592, b: 0.4493592, a: 0}
+    - _Diffuse_Colour: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
     - _Specular: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
