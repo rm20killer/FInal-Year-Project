@@ -17,23 +17,27 @@ MonoBehaviour:
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: 956e4b20-07c3-4ebb-a681-18522e358f71
+  GUID: 43c035ef-3520-4dcf-9ff8-3843ca3d07c3
   Index: 0
   Input:
-  - rid: 7353753737581035566
-  - rid: 7353753737581035567
-  - rid: 7353753737581035568
-  - rid: 7353753737581035569
-  - rid: 7353753737581035570
-  - rid: 7353753737581035571
-  - rid: 7353753737581035572
-  - rid: 7353753737581035573
-  - rid: 7353753737581035574
-  - rid: 7353753737581035575
-  - rid: 7353753737581035576
+  - rid: 7353753826540126238
+  - rid: 7353753826540126239
+  - rid: 7353753826540126240
+  - rid: 7353753826540126241
+  - rid: 7353753826540126242
+  - rid: 7353753826540126243
+  - rid: 7353753826540126244
+  - rid: 7353753826540126245
+  - rid: 7353753826540126246
+  - rid: 7353753826540126247
+  - rid: 7353753826540126248
+  - rid: 7353753826540126249
+  - rid: 7353753826540126250
+  - rid: 7353753826540126251
+  - rid: 7353753826540126252
   Output:
   - Index: 0
-    VirtualOutputIndex: 5
+    VirtualOutputIndex: 7
     Description:
       Identifier: Height
       Label: Height
@@ -49,7 +53,7 @@ MonoBehaviour:
     Flags: 0
     MaterialTextureTarget: 
   - Index: 1
-    VirtualOutputIndex: 6
+    VirtualOutputIndex: 8
     Description:
       Identifier: Normal
       Label: Normal
@@ -65,7 +69,7 @@ MonoBehaviour:
     Flags: 0
     MaterialTextureTarget: 
   - Index: 2
-    VirtualOutputIndex: 7
+    VirtualOutputIndex: 9
     Description:
       Identifier: Wall_AO
       Label: Wall_AO
@@ -81,7 +85,7 @@ MonoBehaviour:
     Flags: 0
     MaterialTextureTarget: 
   - Index: 3
-    VirtualOutputIndex: 8
+    VirtualOutputIndex: 10
     Description:
       Identifier: Base_colour
       Label: Base_colour
@@ -97,7 +101,7 @@ MonoBehaviour:
     Flags: 0
     MaterialTextureTarget: 
   - Index: 4
-    VirtualOutputIndex: 9
+    VirtualOutputIndex: 11
     Description:
       Identifier: Blender_opacity
       Label: Blender_opacity
@@ -112,14 +116,62 @@ MonoBehaviour:
     InvertAssignedAlpha: 0
     Flags: 0
     MaterialTextureTarget: 
+  - Index: 5
+    VirtualOutputIndex: 12
+    Description:
+      Identifier: Edge_mask
+      Label: Edge_mask
+      Index: 5
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 2800000, guid: ddb9a6d6d1969be4f905286c34428add, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  - Index: 6
+    VirtualOutputIndex: 13
+    Description:
+      Identifier: Mold_mask
+      Label: Mold_mask
+      Index: 6
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 2800000, guid: f0ed978e590a7644f9b84b99947c5268, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
   HasPhysicalSize: 0
   PhysicalSize: {x: 0, y: 0, z: 0}
   EnablePhysicalSize: 0
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Arcane_wall\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"1039425989\" type=\"8\" value=\"11,11\" />\n 
-    <presetinput identifier=\"$randomseed\" uid=\"1787197335\" type=\"4\" value=\"8293\"
+    identifier=\"$outputsize\" uid=\"1039425989\" type=\"8\" value=\"10,10\" />\n 
+    <presetinput identifier=\"$randomseed\" uid=\"1787197335\" type=\"4\" value=\"2752\"
+    />\n  <presetinput identifier=\"x_amount\" uid=\"1578316571\" type=\"4\" value=\"18\"
+    />\n  <presetinput identifier=\"luminance_random\" uid=\"1578316681\" type=\"0\"
+    value=\"0.38\" />\n  <presetinput identifier=\"top_offset\" uid=\"1578317635\"
+    type=\"1\" value=\"0,-0.2\" />\n  <presetinput identifier=\"Bottom_offset\" uid=\"1578313897\"
+    type=\"1\" value=\"0,-0.48\" />\n  <presetinput identifier=\"Top_offet_wall\"
+    uid=\"1578314290\" type=\"1\" value=\"0,0.29\" />\n  <presetinput identifier=\"Middle_Size\"
+    uid=\"1577850443\" type=\"1\" value=\"1,0.03\" />\n  <presetinput identifier=\"Bottom_size\"
+    uid=\"1577850820\" type=\"1\" value=\"1,0.05\" />\n  <presetinput identifier=\"BaseColour_intensity\"
+    uid=\"1578567178\" type=\"0\" value=\"1\" />\n </sbspreset>\n"
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 1
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: cd0c63aacf28d9c469bf8fdab2416e99, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://Arcane_wall\" label=\"\" >\n  <presetinput
+    identifier=\"$outputsize\" uid=\"1039425989\" type=\"8\" value=\"10,10\" />\n 
+    <presetinput identifier=\"$randomseed\" uid=\"1787197335\" type=\"4\" value=\"2752\"
     />\n  <presetinput identifier=\"x_amount\" uid=\"1578316571\" type=\"4\" value=\"20\"
     />\n  <presetinput identifier=\"luminance_random\" uid=\"1578316681\" type=\"0\"
     value=\"0.523\" />\n  <presetinput identifier=\"top_offset\" uid=\"1578317635\"
@@ -127,20 +179,8 @@ MonoBehaviour:
     type=\"1\" value=\"0,-0.48\" />\n  <presetinput identifier=\"Top_offet_wall\"
     uid=\"1578314290\" type=\"1\" value=\"0,0.29\" />\n  <presetinput identifier=\"Middle_Size\"
     uid=\"1577850443\" type=\"1\" value=\"1,0.03\" />\n  <presetinput identifier=\"Bottom_size\"
-    uid=\"1577850820\" type=\"1\" value=\"1,0.05\" />\n </sbspreset>\n"
-  IsRuntimeOnly: 0
-  GenerateAllOutputs: 1
-  GenerateAllMipmaps: 1
-  OutputMaterial: {fileID: 2100000, guid: cd0c63aacf28d9c469bf8fdab2416e99, type: 2}
-  DefaultPreset: " <sbspreset pkgurl=\"pkg://Arcane_wall\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"1039425989\" type=\"8\" value=\"10,10\" />\n 
-    <presetinput identifier=\"$randomseed\" uid=\"1787197335\" type=\"4\" value=\"8293\"
-    />\n  <presetinput identifier=\"x_amount\" uid=\"1578316571\" type=\"4\" value=\"20\"
-    />\n  <presetinput identifier=\"luminance_random\" uid=\"1578316681\" type=\"0\"
-    value=\"0.523\" />\n  <presetinput identifier=\"top_offset\" uid=\"1578317635\"
-    type=\"1\" value=\"0,-0.25\" />\n  <presetinput identifier=\"Bottom_offset\"
-    uid=\"1578313897\" type=\"1\" value=\"0,-0.46\" />\n  <presetinput identifier=\"Top_offet_wall\"
-    uid=\"1578314290\" type=\"1\" value=\"0,0.28\" />\n </sbspreset>\n"
+    uid=\"1577850820\" type=\"1\" value=\"1,0.05\" />\n  <presetinput identifier=\"BaseColour_intensity\"
+    uid=\"1578567178\" type=\"0\" value=\"1\" />\n </sbspreset>\n"
   MaterialShader: Shader Graphs/Hand_painted_wall
   RenderTextures: 0
   OutputRemaped: 0
@@ -148,7 +188,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7353753737581035566
+    - rid: 7353753826540126238
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
@@ -159,7 +199,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}
@@ -167,7 +207,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035567
+    - rid: 7353753826540126239
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 1
@@ -178,7 +218,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 0
-        Data: 8293
+        Data: 2752
         NumericalDescription:
           DefaultValue: 0
           MinValue: 0
@@ -189,7 +229,7 @@ MonoBehaviour:
           LabelTrue: 
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035568
+    - rid: 7353753826540126240
       type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 2
@@ -209,7 +249,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035569
+    - rid: 7353753826540126241
       type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 3
@@ -229,7 +269,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035570
+    - rid: 7353753826540126242
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 4
@@ -240,7 +280,7 @@ MonoBehaviour:
           GuiDescription: Amount of patterns on the X axis.
           Type: 4
           WidgetType: 1
-        Data: 20
+        Data: 18
         NumericalDescription:
           DefaultValue: 13
           MinValue: 1
@@ -251,7 +291,7 @@ MonoBehaviour:
           LabelTrue: 
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035571
+    - rid: 7353753826540126243
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 5
@@ -262,7 +302,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.523
+        Data: 0.38
         NumericalDescription:
           DefaultValue: 0.65
           MinValue: 0
@@ -271,7 +311,7 @@ MonoBehaviour:
           SliderClamp: 1
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035572
+    - rid: 7353753826540126244
       type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 6
@@ -292,7 +332,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035573
+    - rid: 7353753826540126245
       type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 7
@@ -313,7 +353,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035574
+    - rid: 7353753826540126246
       type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 8
@@ -334,7 +374,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035575
+    - rid: 7353753826540126247
       type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 9
@@ -354,7 +394,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7353753737581035576
+    - rid: 7353753826540126248
       type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 10
@@ -371,6 +411,88 @@ MonoBehaviour:
           MinValue: {x: 0, y: 0}
           MaxValue: {x: 1, y: 1}
           SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753826540126249
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 11
+        Description:
+          Identifier: BaseColour_intensity
+          Label: BaseColour_intensity
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 80
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753826540126250
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 12
+        Description:
+          Identifier: BaseColour_warpangle
+          Label: BaseColour_warpangle
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 2
+        Data: -0.438861
+        NumericalDescription:
+          DefaultValue: -0.438861
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753826540126251
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 13
+        Description:
+          Identifier: BaseColour_warpfilter
+          Label: BaseColour_warpfilter
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 4
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7353753826540126252
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 14
+        Description:
+          Identifier: BaseColour_intensityoffset
+          Label: BaseColour_intensityoffset
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []

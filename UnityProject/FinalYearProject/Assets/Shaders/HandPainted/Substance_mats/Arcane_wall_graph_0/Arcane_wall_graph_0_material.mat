@@ -29,6 +29,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: a7966d176164abb4ba00fc9964877acb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _AO_edge_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -65,6 +69,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Mold_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: 91618bbbb4d4c754983615687f807309, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -85,6 +93,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_313f8cd332244ace9dfce6d99f26467e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f0ed978e590a7644f9b84b99947c5268, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c59b29a1bd4040f7a434e2b885d70962_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ddb9a6d6d1969be4f905286c34428add, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -103,6 +119,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AO_edge_strength: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -126,6 +143,7 @@ Material:
     - _Location4: 0.8
     - _Location5: 1
     - _Metallic: 0
+    - _Normal_Stength: 0
     - _OcclusionStrength: 1
     - _Overlay_Strength: 0
     - _Paint_strength: 1
@@ -148,6 +166,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - _AO_edge_Colour: {r: 0.6981132, g: 0.39120677, b: 0.39120677, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Colour1: {r: 0.49411762, g: 0.41176468, b: 0.30588236, a: 1}
@@ -156,6 +175,7 @@ Material:
     - _Colour4: {r: 0.40566036, g: 0.39320838, b: 0.35016906, a: 1}
     - _Colour5: {r: 0.43137258, g: 0.34117648, b: 0.27450976, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Mold_colour: {r: 0.32673347, g: 0.51886785, b: 0.27607688, a: 0}
     - _Scale_Paint: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular: {r: 1, g: 1, b: 1, a: 0}
