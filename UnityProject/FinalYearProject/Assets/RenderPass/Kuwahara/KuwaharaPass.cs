@@ -10,7 +10,7 @@ public class KuwaharaPass : ScriptableRenderPass
     RTHandle cameraColorTargetIdent;
     RenderTargetHandle tempTexture;
 
-    public ImpactEffectRenderPass(string profilerTag,
+    public KuwaharaPass(string profilerTag,
         RenderPassEvent renderPassEvent, Material compositeMaterial)
     {
         this.profilerTag = profilerTag;
