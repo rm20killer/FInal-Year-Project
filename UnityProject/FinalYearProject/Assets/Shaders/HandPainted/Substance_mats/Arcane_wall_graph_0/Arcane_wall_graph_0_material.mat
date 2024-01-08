@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Colour:
-        m_Texture: {fileID: 2800000, guid: 782fa2be224758b48bf1c7405dca4095, type: 3}
+        m_Texture: {fileID: 2800000, guid: eb9da24a13cba334c84bba82f751724c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -143,6 +143,7 @@ Material:
     - _Location4: 0.8
     - _Location5: 1
     - _Metallic: 0
+    - _Mold_strength: 0
     - _Normal_Stength: 0
     - _OcclusionStrength: 1
     - _Overlay_Strength: 0

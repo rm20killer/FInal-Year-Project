@@ -88,9 +88,10 @@ Material:
     - _Location3: 0.6
     - _Location4: 0.737
     - _Location5: 1
+    - _Mold_strength: 0.677
     - _Normal_Stength: 1
     - _Overlay_Strength: 0.27
-    - _Paint_strength: 1.09
+    - _Paint_strength: 1.43
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale_x: 2.5
