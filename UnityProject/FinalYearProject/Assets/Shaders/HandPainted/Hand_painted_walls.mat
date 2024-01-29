@@ -67,18 +67,19 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 4
-    - _Scale_x: 5
-    - _Scale_y: 4
+    - _Scale_x: 1
+    - _Scale_y: 1
     - _Smoothness: 2
+    - _Smoothness_increase: 0.559
     - _Specular_Smoothness: 0.47
-    - _Strength: 0.66
+    - _Strength: 0.369
     - _USE_SCREEN_SPACE: 0
     - _Use_Gradient: 1
     - _Use_SunLight: 0
     - _Use_colour: 1
     m_Colors:
-    - _Color: {r: 0, g: 0.67378116, b: 1, a: 1}
-    - _Colour1: {r: 0.9137254, g: 0, b: 1, a: 0}
+    - _Color: {r: 0.32445708, g: 0.72378784, b: 0.7924528, a: 1}
+    - _Colour1: {r: 0.92219007, g: 0.09811318, b: 1, a: 0}
     - _Colour2: {r: 0.04943931, g: 0.6830357, b: 0.9528302, a: 0}
     - _Colour3: {r: 0.05900679, g: 0.9622642, b: 0.7157953, a: 0}
     - _Colour4: {r: 0.9762262, g: 1, b: 0.1084906, a: 0}

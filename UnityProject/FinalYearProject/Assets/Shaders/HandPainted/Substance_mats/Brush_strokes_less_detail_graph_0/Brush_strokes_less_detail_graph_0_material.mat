@@ -123,6 +123,7 @@ Material:
     - _Scale_y: 1
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
+    - _Smoothness_increase: 0.4
     - _SpecularHighlights: 1
     - _Specular_Smoothness: 0.41
     - _SrcBlend: 1
