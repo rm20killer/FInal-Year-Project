@@ -1,25 +1,10 @@
-void MainLight_float(float3 WorldPos, out float3 Direction, out float3 Color, 
-	out float DistanceAtten, out float ShadowAtten)
+void Shadowmask_half(float2 lightmapUV, out half4 Shadowmask)
 {
-#ifdef SHADERGRAPH_PREVIEW
-    Direction = normalize(float3(0.5f, 0.5f, 0.25f));
-    Color = float3(1.0f, 1.0f, 1.0f);
-    DistanceAtten = 1.0f;
-    ShadowAtten = 1.0f;
-#else
-    
-#if SHADOWS_SCREEN
-	half4 clipPos = TransformWorldToHClip(WorldPos);
-	half4 shadowCoord = ComputeScreenPos(clipPos);
-#else
-	half4 shadowCoord = TransformWorldToShadowCoord(WorldPos);
-#endif
-
-    Light mainLight = GetMainLight(shadowCoord);
- 
-    Direction = mainLight.direction;
-    Color = mainLight.color;
-    DistanceAtten = mainLight.distanceAttenuation;
-    ShadowAtten = mainLight.shadowAttenuation;
-#endif
+    float4 lightmapScaleOffset;
+    #ifdef SHADERGRAPH_PREVIEW
+        Shadowmask = half4(1,1,1,1);
+    #else
+        // lightmapUV.xy = lightmapUV.xy * lightmapScaleOffset.xy + lightmapScaleOffset.xw;
+        Shadowmask = SAMPLE_SHADOWMASK(lightmapUV);
+    #endif
 }

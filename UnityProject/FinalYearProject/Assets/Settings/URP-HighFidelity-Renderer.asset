@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5283760799586893636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071ce3c4994de2b4293dec2b417ae1c5, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    IsEnabled: 1
+    renderPassEvent: 550
+    chromaticAberrationShader: {fileID: -6465566751694194690, guid: 8d9a8e56f23cfa44b8e2efee389b4a0a,
+      type: 3}
+    intensity: 40
+    offset: {x: 0.005, y: 0.005}
+    constrast: 2
+    fallOff: 20
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,7 +77,8 @@ MonoBehaviour:
   - {fileID: -1878332245247344467}
   - {fileID: 8535386265783732504}
   - {fileID: 4650953820221330580}
-  m_RendererFeatureMap: adc0de57c6d2eee51889c91896c8737694d40991db818b40
+  - {fileID: -5283760799586893636}
+  m_RendererFeatureMap: adc0de57c6d2eee51889c91896c8737694d40991db818b40bc407d1e8c4facb6
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}

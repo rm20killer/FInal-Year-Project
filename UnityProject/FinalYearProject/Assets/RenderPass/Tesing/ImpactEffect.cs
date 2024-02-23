@@ -40,6 +40,6 @@ public class ImpactEffect : ScriptableRendererFeature
         }
         renderer.EnqueuePass(impactEffectRenderPass);
         
-        renderer.EnqueuePass(impactEffectRenderPass);
+        // renderer.EnqueuePass(impactEffectRenderPass);
     }
 }

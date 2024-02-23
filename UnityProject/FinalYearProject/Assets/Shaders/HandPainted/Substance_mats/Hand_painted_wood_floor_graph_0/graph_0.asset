@@ -179,8 +179,8 @@ MonoBehaviour:
     value=\"3.59\" />\n  <presetinput identifier=\"Bursh_rotation\" uid=\"1749711090\"
     type=\"0\" value=\"1.17\" />\n </sbspreset>\n"
   MaterialShader: Shader Graphs/Hand_painted_wall
-  RenderTextures: 1
-  OutputRemaped: 1
+  RenderTextures: 0
+  OutputRemaped: 0
   Presets: []
   references:
     version: 2
