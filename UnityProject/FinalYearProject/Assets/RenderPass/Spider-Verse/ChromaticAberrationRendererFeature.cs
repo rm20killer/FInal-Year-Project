@@ -12,11 +12,15 @@ public class ChromaticAberrationRendererFeature : ScriptableRendererFeature
         public bool IsEnabled = true;
         public RenderPassEvent renderPassEvent; 
         public Shader chromaticAberrationShader;
+        
+        [Header("Chromatic Aberration")]
         public float intensity;
         public Vector2 offset;
         public float constrast;
         public float fallOff;
         
+        [Header( "Outline Detection")]
+        public float OutlineSize;
     }
     public ChromaticSettings settings = new ChromaticSettings();
     
@@ -30,6 +34,7 @@ public class ChromaticAberrationRendererFeature : ScriptableRendererFeature
         compositeMaterial.SetVector("_Offset", settings.offset); 
         compositeMaterial.SetFloat("_Constrast", settings.constrast);
         compositeMaterial.SetFloat("_FallOff", settings.fallOff);
+        compositeMaterial.SetFloat("_OutlineSize", settings.OutlineSize);
         
         renderPass = new ChromaticAberrationRenderPass("ChromaticAberrationPass", settings.renderPassEvent,compositeMaterial );
     }

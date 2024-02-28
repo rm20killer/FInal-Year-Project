@@ -3,7 +3,7 @@
     Properties {
         _MainTex ("Main Texture", 2D) = "white" {}
         _Intensity ("Intensity", Range(0, 1)) = 0.1
-        _Offset ("Offset", Vector) = (0.01, 0.01, 0, 0) // RG offset
+        _Offset ("Offset", Vector) = (0.01, 0.01, 0, 0)
     }
 
     SubShader {

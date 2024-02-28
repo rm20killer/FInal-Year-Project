@@ -18,10 +18,11 @@ MonoBehaviour:
     renderPassEvent: 550
     chromaticAberrationShader: {fileID: -6465566751694194690, guid: 8d9a8e56f23cfa44b8e2efee389b4a0a,
       type: 3}
-    intensity: 40
-    offset: {x: 0.005, y: 0.005}
-    constrast: 2
-    fallOff: 20
+    intensity: 1000
+    offset: {x: 0.003, y: 0.003}
+    constrast: 0.9
+    fallOff: 100
+    OutlineSize: 0.05
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
