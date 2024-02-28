@@ -1,20 +1,20 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-public class ChromaticAberrationRenderPass : ScriptableRenderPass
+public class OutlineRenderPass : ScriptableRenderPass
 {
-    private string profilerTag;
-    
+    string profilerTag;
+
     Material CompositeMaterial;
     RTHandle cameraColorTargetIdent;
     RenderTargetHandle tempTexture;
-
+    
     private RenderTargetIdentifier source; 
     private RenderTargetIdentifier destination;
-    private int tempRTId = Shader.PropertyToID("_ChromaticTempRT");
-
-    public ChromaticAberrationRenderPass(string profilerTag,
+    private int tempRTId = Shader.PropertyToID("_OutlineTempRT");
+    
+    public OutlineRenderPass(string profilerTag,
         RenderPassEvent renderPassEvent, Material compositeMaterial)
     {
         this.profilerTag = profilerTag;
@@ -53,6 +53,4 @@ public class ChromaticAberrationRenderPass : ScriptableRenderPass
     {
         cmd.ReleaseTemporaryRT(tempRTId);
     }
-
-
 }

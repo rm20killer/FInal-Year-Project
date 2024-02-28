@@ -78,8 +78,9 @@ MonoBehaviour:
   - {fileID: -1878332245247344467}
   - {fileID: 8535386265783732504}
   - {fileID: 4650953820221330580}
+  - {fileID: 9205039297351206123}
   - {fileID: -5283760799586893636}
-  m_RendererFeatureMap: adc0de57c6d2eee51889c91896c8737694d40991db818b40bc407d1e8c4facb6
+  m_RendererFeatureMap: adc0de57c6d2eee51889c91896c8737694d40991db818b40eb44217678debe7fbc407d1e8c4facb6
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -158,3 +159,22 @@ MonoBehaviour:
     WhenToInsert: 550
     shader: {fileID: -6465566751694194690, guid: dc2e5c94d20ee72418759124d95807ca,
       type: 3}
+--- !u!114 &9205039297351206123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e605dbdb54499f9adba0d73b225819, type: 3}
+  m_Name: OutlineFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    IsEnabled: 1
+    renderPassEvent: 550
+    OutlineShader: {fileID: -6465566751694194690, guid: 51fd179761cad5941afe3bc598e64ab5,
+      type: 3}
+    OutlineSize: 0.1
