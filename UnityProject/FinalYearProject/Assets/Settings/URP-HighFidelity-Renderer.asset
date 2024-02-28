@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e605dbdb54499f9adba0d73b225819, type: 3}
   m_Name: OutlineFeature
   m_EditorClassIdentifier: 
-  m_Active: 0
+  m_Active: 1
   settings:
     IsEnabled: 1
     renderPassEvent: 550
