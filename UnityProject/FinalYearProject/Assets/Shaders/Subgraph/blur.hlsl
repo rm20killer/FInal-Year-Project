@@ -1,4 +1,6 @@
 ﻿
+#ifndef GAUSSIANBLUR_INCLUDED
+#define GAUSSIANBLUR_INCLUDED
 /**
  * \brief https://en.wikipedia.org/wiki/Gaussian_function 
  * \param x distance from the center
@@ -12,31 +14,44 @@ float Gaussian(float x, float strength)
         * exp(-(x * x) / (2.0 * strength * strength));
 }
 
-//! Too slow for real-time use
-void gaussianblur_float(float3 input, float strength, out float3 blur)
+
+
+/**
+ * \brief blur a colour using a gaussian blur algorithm
+ * \param input the input colour to blur
+ * \param strength strength of the blur
+ * \param Radius radius of the blur
+ * \param blur the resulting blurred colour
+ */
+void gaussianblur_float(float3 input, float strength, float Radius, out float3 blur)
 {
-    //initialize the blur and total weight
-    blur = float3(0.0, 0.0, 0.0);
-    float totalWeight = 0.0;
-    
-    float radius = strength * 3.0;
+    float weights[5] = { 0.1216f, 0.2716f, 0.3838f, 0.2716f, 0.1216f };
+    float3 SampleBlur = float3(0.0, 0.0, 0.0);
 
-    //loop through a square of pixels around the center 
-    for (float y = -radius; y <= radius; y++)
+    for (int i = -2; i <= 2; ++i)
     {
-        for (float x = -radius; x <= radius; x++)
-        {
-            //calculate the weight of the blur
-            float2 offset = float2(x, y);
-            float weight = Gaussian(distance(float2(0, 0), offset), radius / 3.0);
-
-            //add the weighted input to the blur
-            blur = blur + input * weight;
-            totalWeight = totalWeight + weight;
-        }
+        float offset = i * Radius * strength; 
+        float3 sampleColour = input + float3(offset, 0, 0);
+        SampleBlur += sampleColour * weights[i + 2];
     }
 
-    //normalize the blur
-    blur = blur/ totalWeight;
-    
+    blur = SampleBlur;
 }
+
+void gaussianblur1_float(float input, float strength, float Radius, out float blur)
+{
+    const float weights[5] = { 0.1216f, 0.2716f, 0.3838f, 0.2716f, 0.1216f };
+    float sample_blur = 0.0;
+
+    for (int i = -2; i <= 2; ++i)
+    {
+        const float offset = i * Radius * strength; 
+        float3 sample_colour = input + offset;
+        sample_blur  += sample_colour * weights[i + 2];
+    }
+
+    blur = sample_blur;
+}
+
+
+#endif 
