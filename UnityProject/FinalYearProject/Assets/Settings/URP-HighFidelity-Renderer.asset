@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5c1d5daddbd4329a20f388722452d1e, type: 3}
   m_Name: SpiderverseRendererFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     IsEnabled: 1
     WhenToInsert: 550
@@ -35,7 +35,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 071ce3c4994de2b4293dec2b417ae1c5, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     IsEnabled: 1
     renderPassEvent: 550
@@ -159,12 +159,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695af583ea1dc064b9bb438fb9df9e6c, type: 3}
   m_Name: KuwaharaFeature
   m_EditorClassIdentifier: 
-  m_Active: 0
+  m_Active: 1
   settings:
     IsEnabled: 1
     WhenToInsert: 550
     shader: {fileID: -6465566751694194690, guid: d40fbf8b05fdc904abfdfe72b93e8d21,
       type: 3}
+    radius: 300
+    strength: 750
 --- !u!114 &8535386265783732504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e605dbdb54499f9adba0d73b225819, type: 3}
   m_Name: OutlineFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     IsEnabled: 1
     renderPassEvent: 550

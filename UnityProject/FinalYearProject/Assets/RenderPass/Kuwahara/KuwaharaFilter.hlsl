@@ -1,4 +1,4 @@
-﻿float SampleQuadrant(UnityTexture2D MainTex, float4 MainTex_Size, float2 uv, int x1, int x2, int y1, int y2, float n)
+﻿float SampleQuadrant(Texture2D MainTex, float4 MainTex_Size, float2 uv, int x1, int x2, int y1, int y2, float n)
 {
     float luminance_sum = 0.0f;
     float luminance_sum2 = 0.0f;
@@ -22,7 +22,7 @@
     return float4(col_sum / n, std);
 }
 
-void KuwaharaFilter_float(UnityTexture2D MainTex, float4 MainTex_Size,float2 uv, float radius, vector offset, out float3 Out)
+void KuwaharaFilter_float(Texture2D MainTex, float4 MainTex_Size,float2 uv, float radius, vector offset, out float3 Out)
 {
     
     #ifdef SHADERGRAPH_PREVIEW
@@ -71,4 +71,62 @@ void KuwaharaFilter_float(UnityTexture2D MainTex, float4 MainTex_Size,float2 uv,
     
     #endif
     
+}
+
+
+
+void Kuwahara_float(float3 input, float strength, float Radius, out float3 filteredColor )
+{
+    filteredColor = float3(0, 0, 0);
+    float2 resolution = float2(1920, 1080); // assuming SCREEN_WIDTH and SCREEN_HEIGHT are defined
+
+    int radius = int(Radius);
+    float area = (2 * radius + 1) * (2 * radius + 1);
+
+    float3 mean[4];
+    float3 variance[4];
+
+    for (int i = 0; i < 4; ++i)
+    {
+        mean[i] = float3(0, 0, 0);
+        variance[i] = float3(0, 0, 0);
+    }
+
+    for (int y = -radius; y <= radius; ++y)
+    {
+        for (int x = -radius; x <= radius; ++x)
+        {
+            float3 sampleColor = input + float3(x * strength, y * strength, 0);
+
+            float quadrantIndex = 0;
+            if (x >= 0 && y >= 0) quadrantIndex = 0;
+            else if (x < 0 && y >= 0) quadrantIndex = 1;
+            else if (x >= 0 && y < 0) quadrantIndex = 2;
+            else quadrantIndex = 3;
+
+            mean[int(quadrantIndex)] += sampleColor;
+            variance[int(quadrantIndex)] += sampleColor * sampleColor;
+        }
+    }
+
+    for (int i = 0; i < 4; ++i)
+    {
+        mean[i] /= area;
+        variance[i] = (variance[i] - area * mean[i] * mean[i]) / area;
+    }
+
+    float minVariance = variance[0].r + variance[0].g + variance[0].b;
+    int minIndex = 0;
+
+    for (int i = 1; i < 4; ++i)
+    {
+        float varianceSum = variance[i].r + variance[i].g + variance[i].b;
+        if (varianceSum < minVariance)
+        {
+            minVariance = varianceSum;
+            minIndex = i;
+        }
+    }
+
+    filteredColor = mean[minIndex];
 }

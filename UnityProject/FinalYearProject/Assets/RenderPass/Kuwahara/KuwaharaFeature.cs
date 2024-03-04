@@ -11,6 +11,9 @@ public class KuwaharaFeature : ScriptableRendererFeature
         public bool IsEnabled = true;
         public RenderPassEvent WhenToInsert = RenderPassEvent.AfterRendering;
         public Shader shader;
+        
+        public float radius;
+        public float strength;
     }
     
     public MyFeatureSettings settings = new MyFeatureSettings();
@@ -21,11 +24,15 @@ public class KuwaharaFeature : ScriptableRendererFeature
     public override void Create()
     {
         compositeMaterial = CoreUtils.CreateEngineMaterial(settings.shader);
+        compositeMaterial.SetFloat("_Radius", settings.radius);
+        compositeMaterial.SetFloat("_Strength", settings.strength);
         impactEffectRenderPass = new ImpactEffectRenderPass(
             "ImpactEffectRenderPass",
             settings.WhenToInsert,
             compositeMaterial
         );
+        
+        
     }
     
     public override void SetupRenderPasses(ScriptableRenderer renderer, in RenderingData renderingData) {

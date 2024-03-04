@@ -7,12 +7,12 @@
  * \param strength srength of the blur
  * \return the weight of the blur with the given distance and strength
  */
-float Gaussian(float x, float strength)
-{
-    //find the weight of the blur using a curve
-    return 1.0 / (sqrt(2.0 * 3.1415926 * strength * strength))
-        * exp(-(x * x) / (2.0 * strength * strength));
-}
+// float Gaussian(float x, float strength)
+// {
+//     //find the weight of the blur using a curve
+//     return 1.0 / (sqrt(2.0 * 3.1415926 * strength * strength))
+//         * exp(-(x * x) / (2.0 * strength * strength));
+// }
 
 
 
