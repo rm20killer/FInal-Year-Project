@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -14,18 +15,23 @@ public class KuwaharaFeature : ScriptableRendererFeature
         
         public float radius;
         public float strength;
+        [Description ("The number of steps to take when calculating the colour Set to 0 for no colour change")] public float colour_Steps;
     }
     
     public MyFeatureSettings settings = new MyFeatureSettings();
 
     RTHandle renderTextureHandle;
     ImpactEffectRenderPass impactEffectRenderPass;
+    private static readonly int Radius = Shader.PropertyToID("_Radius");
+    private static readonly int Strength = Shader.PropertyToID("_Strength");
+    private static readonly int ColourSteps = Shader.PropertyToID("_ColourSteps");
 
     public override void Create()
     {
         compositeMaterial = CoreUtils.CreateEngineMaterial(settings.shader);
-        compositeMaterial.SetFloat("_Radius", settings.radius);
-        compositeMaterial.SetFloat("_Strength", settings.strength);
+        compositeMaterial.SetFloat(Radius, settings.radius);
+        compositeMaterial.SetFloat(Strength, settings.strength);
+        compositeMaterial.SetFloat(ColourSteps, settings.colour_Steps);
         impactEffectRenderPass = new ImpactEffectRenderPass(
             "ImpactEffectRenderPass",
             settings.WhenToInsert,

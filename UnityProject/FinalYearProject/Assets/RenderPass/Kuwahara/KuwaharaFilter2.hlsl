@@ -23,7 +23,7 @@ float3 gaussianblur(float3 input, float strength, float Radius)
 #define Kuwahara_INCLUDED
 
 
-void Kuwahara_float(float3 input, float strength, float Radius, out float3 blur )
+void Kuwahara_float(float3 input, float strength, float Radius, float ColourSteps, out float3 blur )
 {
     float weights[5] = { 0.1f, 0.2f, 0.4f, 0.2f, 0.1f };
     float3 SampleBlur = float3(0.0, 0.0, 0.0);
@@ -45,9 +45,12 @@ void Kuwahara_float(float3 input, float strength, float Radius, out float3 blur 
     blur = SampleBlur;
     // blur = GaussianMix;
 
-    int colorSteps = 32; // Number of color levels
-    float3 posterized = floor(input * colorSteps) / colorSteps;
-    blur = lerp(posterized, blur, 0.5);
+    int colourSteps = int(ColourSteps);
+    if (ColourSteps > 0)
+    {
+        float3 posterized = floor(blur * colourSteps) / colourSteps;
+        blur = posterized;
+    }
 }
 
 #endif 

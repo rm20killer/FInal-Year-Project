@@ -165,8 +165,9 @@ MonoBehaviour:
     WhenToInsert: 550
     shader: {fileID: -6465566751694194690, guid: d40fbf8b05fdc904abfdfe72b93e8d21,
       type: 3}
-    radius: 300
-    strength: 750
+    radius: 100
+    strength: 2000
+    colour_Steps: 0
 --- !u!114 &8535386265783732504
 MonoBehaviour:
   m_ObjectHideFlags: 0
