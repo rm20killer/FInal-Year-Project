@@ -52,18 +52,18 @@ Material:
     m_Ints: []
     m_Floats:
     - _Falloff_Threshold: 4.84
-    - _Falloff_Threshold_1: 4.11
+    - _Falloff_Threshold_1: 2.73
     - _Lit_Threshold: 0.41
     - _Lit_Threshold_1: 0.74
     - _MinDistance: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotation: 3.83
-    - _Rotation_1: 1.74
-    - _Size: 10
-    - _Size_dots: 23.67
-    - _Smoothness: 8.5
-    - _Softness: 0.5
+    - _Rotation: 35
+    - _Rotation_1: 2
+    - _Size: 10.88
+    - _Size_dots: 43.92
+    - _Smoothness: 9.67
+    - _Softness: 1.1
     - _USE_SCREEN_SPACE: 1
     m_Colors:
     - _BaseColour: {r: 1, g: 0.07503659, b: 0, a: 0}

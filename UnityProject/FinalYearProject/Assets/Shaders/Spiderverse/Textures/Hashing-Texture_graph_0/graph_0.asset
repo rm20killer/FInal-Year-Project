@@ -83,7 +83,12 @@ MonoBehaviour:
   EnablePhysicalSize: 0
   Thumbnail: 
   HasThumbnail: 0
-  CurrentStatePreset: 
+  CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Hashing-Texture\" label=\"\" >\n 
+    <presetinput identifier=\"$outputsize\" uid=\"754941775\" type=\"8\" value=\"10,10\"
+    />\n  <presetinput identifier=\"1_line_amount\" uid=\"1333705291\" type=\"4\"
+    value=\"4\" />\n  <presetinput identifier=\"2_Line_Size\" uid=\"1333677240\"
+    type=\"1\" value=\"1,0.01\" />\n  <presetinput identifier=\"3_line_size\" uid=\"1333677306\"
+    type=\"1\" value=\"1,0.01\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 1
   GenerateAllMipmaps: 1
@@ -172,7 +177,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 1
-        Data: 13
+        Data: 4
         NumericalDescription:
           DefaultValue: 13
           MinValue: 1

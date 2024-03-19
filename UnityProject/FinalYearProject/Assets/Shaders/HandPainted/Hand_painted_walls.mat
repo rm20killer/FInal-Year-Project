@@ -21,11 +21,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hand_painted_walls
-  m_Shader: {fileID: -6465566751694194690, guid: 21b0833737af3c64c82b3a60967a24cc,
+  m_Shader: {fileID: -6465566751694194690, guid: 6fb592ece1527304ab869c59acb387de,
     type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: f72b31bc9fb77e648a2eebe3c3113e5b, type: 2}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _USE_SCREEN_SPACE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -36,54 +37,21 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _Base_Colour:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Paint_stoke:
-        m_Texture: {fileID: 2800000, guid: cc6ed2a6a23eb4c4f81d9055f0e0651c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Location1: 0
-    - _Location2: 0.2
-    - _Location3: 0.431
-    - _Location4: 0.687
-    - _Location5: 1
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Scale: 4
-    - _Scale_x: 1
-    - _Scale_y: 1
-    - _Smoothness: 2
-    - _Smoothness_increase: 0.559
-    - _Specular_Smoothness: 0.47
-    - _Strength: 0.369
-    - _USE_SCREEN_SPACE: 0
-    - _Use_Gradient: 1
-    - _Use_SunLight: 0
-    - _Use_colour: 1
+    - _Falloff_Threshold: 2.79
+    - _Falloff_Threshold_1: 2.5
+    - _Lit_Threshold: 0.2
+    - _Lit_Threshold_1: 0.2
+    - _MinDistance: 0.85
+    - _Rotation: 8.1
+    - _Rotation_1: -2
+    - _Size: 25.47
+    - _Size_dots: 28.03
+    - _Smoothness: 2.19
+    - _Softness: 0.73
+    - _USE_SCREEN_SPACE: 1
     m_Colors:
-    - _Color: {r: 0.42383552, g: 0.5, b: 0.2712264, a: 1}
-    - _Colour1: {r: 0.92219007, g: 0.09811318, b: 1, a: 0}
-    - _Colour2: {r: 0.04943931, g: 0.6830357, b: 0.9528302, a: 0}
-    - _Colour3: {r: 0.05900679, g: 0.9622642, b: 0.7157953, a: 0}
-    - _Colour4: {r: 0.9762262, g: 1, b: 0.1084906, a: 0}
-    - _Colour5: {r: 1, g: 1, b: 1, a: 0}
-    - _Diffuse_Colour: {r: 1, g: 0, b: 0, a: 1}
-    - _Specular: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColour: {r: 0.6415094, g: 0.6156606, b: 0.3655393, a: 0}
   m_BuildTextureStacks: []

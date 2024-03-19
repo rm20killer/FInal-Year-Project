@@ -1,8 +1,18 @@
-﻿// float PI = 3.14159265359f;
+﻿// PI = 3.14159265359f;
 //
 // float gaussian(float strength, float pos) {
 //     return (1.0f / sqrt(2.0f * PI * strength * strength)) * exp(-(pos * pos) / (2.0f * strength * strength));
 // }
+
+
+
+/**
+ * \brief 
+ * \param input 
+ * \param strength 
+ * \param Radius 
+ * \return 
+ */
 float3 gaussianblur(float3 input, float strength, float Radius)
 {
     float weights[5] = { 0.1216f, 0.2716f, 0.3838f, 0.2716f, 0.1216f };
@@ -23,6 +33,14 @@ float3 gaussianblur(float3 input, float strength, float Radius)
 #define Kuwahara_INCLUDED
 
 
+/**
+ * \brief 
+ * \param input 
+ * \param strength 
+ * \param Radius 
+ * \param ColourSteps 
+ * \param blur 
+ */
 void Kuwahara_float(float3 input, float strength, float Radius, float ColourSteps, out float3 blur )
 {
     float weights[5] = { 0.1f, 0.2f, 0.4f, 0.2f, 0.1f };
