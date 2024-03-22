@@ -104,7 +104,9 @@ MonoBehaviour:
   - {fileID: 9205039297351206123}
   - {fileID: -5283760799586893636}
   - {fileID: -5328038427702207639}
-  m_RendererFeatureMap: adc0de57c6d2eee51889c91896c8737694d40991db818b40eb44217678debe7fbc407d1e8c4facb669db2d7747010fb6
+  - {fileID: 7520492346220600439}
+  - {fileID: 5283664733193979694}
+  m_RendererFeatureMap: adc0de57c6d2eee51889c91896c8737694d40991db818b40eb44217678debe7fbc407d1e8c4facb669db2d7747010fb677dc8590f1275e682e4749ae14595349
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -168,6 +170,41 @@ MonoBehaviour:
     radius: 100
     strength: 2000
     colour_Steps: 0
+--- !u!114 &5283664733193979694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16b1c8d6c52e3a47a42af51cb34bc95, type: 3}
+  m_Name: MoebiusRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    IsEnabled: 1
+    WhenToInsert: 550
+    shader: {fileID: -6465566751694194690, guid: c99fe63557d6cb6458ce99da14e528c9,
+      type: 3}
+--- !u!114 &7520492346220600439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: FullScreenPassRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 78a08787ca30045abb69f6f7dd878e09, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &8535386265783732504
 MonoBehaviour:
   m_ObjectHideFlags: 0

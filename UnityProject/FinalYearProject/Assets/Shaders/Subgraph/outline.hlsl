@@ -1,5 +1,39 @@
-﻿#ifndef SOBELOUTLINE_INCLUDED
+﻿#include <Lighting.cginc>
+#ifndef SOBELOUTLINE_INCLUDED
 #define SOBELOUTLINE_INCLUDED
+
+
+//https://en.wikipedia.org/wiki/Sobel_operator
+static float sobelYMatrix[9] = {
+    1,2,1,
+    0,0,0,
+    -1,-2,-1
+};
+
+static float sobelXMatrix[9] = {
+    1,0,-1,
+    2,0,-2,
+    1,0,-1
+};
+static float2 sobelSamplePoints[9] = {
+    float2(-1,1),float2(0,1),float2(1,1),
+    float2(-1,0),float2(0,0),float2(1,1),
+    float2(-1,-1),float2(0,-1),float2(1,-1),
+};
+
+void DepthSobel_float(float2 uv, float thickness, out float edge)
+{
+    float2 sobel = float2(0,0);
+
+    for (int i = 0; i < 9; i++)
+    {
+        float2 samplePoint = sobelSamplePoints[i];
+        // float2 UV = uv + sobelSamplePoints[i] * thickness
+        float depth = SHADERGRAPH_SAMPLE_SCENE_DEPTH(uv + sobelSamplePoints[i] * thickness);
+		sobel += depth * float2(sobelXMatrix[i], sobelYMatrix[i]);
+    }
+}
+
 
 /**
  * \brief apply a sobel edge detection to a colour

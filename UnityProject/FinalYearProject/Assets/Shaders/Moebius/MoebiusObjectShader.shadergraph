@@ -211,6 +211,9 @@
         },
         {
             "m_Id": "626f9acec6b9408eacf57a9cf8b6387b"
+        },
+        {
+            "m_Id": "06f17839da5241b29bca1fd031bbbb25"
         }
     ],
     "m_StickyNoteDatas": [],
@@ -1172,6 +1175,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "06f17839da5241b29bca1fd031bbbb25",
+    "m_Title": "Crosshashing",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "077c77979b1b47548b75d2a9996490ed",
     "m_Id": 0,
@@ -1354,7 +1368,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
     "m_ObjectId": "0f59a681693b4f8f92338f227b82af1d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Tiling And Offset",
     "m_DrawState": {
@@ -1399,16 +1413,16 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "0fb7531d96a1440e8536b2dee4f2cc2c",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Split",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2736.000244140625,
-            "y": 1070.4000244140625,
-            "width": 119.199951171875,
+            "x": -2755.2001953125,
+            "y": 1144.800048828125,
+            "width": 119.2001953125,
             "height": 148.7999267578125
         }
     },
@@ -1541,7 +1555,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "144389a35f1c4f908167e90948a1d83d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -2238,7 +2252,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "4008454816b140e2b89cdbae39fa5492",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -2431,7 +2445,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "461a80c0c5e64c8cb08d943f3c7bc995",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -2474,7 +2488,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "46468fd539eb45668e688b0abcfa4745",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -2667,7 +2681,7 @@
     "m_Type": "UnityEditor.ShaderGraph.ClampNode",
     "m_ObjectId": "4cfe4c7623c6488fa308790dd35a91cb",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Clamp",
     "m_DrawState": {
@@ -3307,7 +3321,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "71c5e3080b6747369e6e231c72a4f7c0",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -3613,7 +3627,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "7d14620788f44589830e3bcf96dc943f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -4161,7 +4175,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StepNode",
     "m_ObjectId": "9dfeaf985244454bbe8d10429ecf396a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Step",
     "m_DrawState": {
@@ -4334,7 +4348,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PowerNode",
     "m_ObjectId": "9fac15585a4d4c29a396e4dc550d8c4b",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Power",
     "m_DrawState": {
@@ -4409,7 +4423,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StepNode",
     "m_ObjectId": "a33236b2efdc48f390f4e6753307b8c2",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Step",
     "m_DrawState": {
@@ -4575,7 +4589,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "a80f99bf6a78459980144dbd4e3a2040",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -4611,7 +4625,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "a8351235f89f4d258183f759b1b22fe9",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -4695,7 +4709,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StepNode",
     "m_ObjectId": "af04216db42643e48c8f1bee74ee20d8",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Step",
     "m_DrawState": {
@@ -4812,7 +4826,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PosterizeNode",
     "m_ObjectId": "b64edf7bc200428da5fcc730ef22c7be",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Posterize",
     "m_DrawState": {
@@ -4946,7 +4960,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "c16ef9c497de4ca4919f76250964eb07",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -5204,7 +5218,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
     "m_ObjectId": "c9fdc0aff8e947fd895e65761677bd64",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Sample Texture 2D",
     "m_DrawState": {
@@ -5671,7 +5685,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
     "m_ObjectId": "dd99386bec9d41e3bbc93cecf06e8bfe",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Get Variable",
     "m_DrawState": {
@@ -5971,7 +5985,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "e5add909d2254fb49f066f9a5ab7bab9",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -6287,7 +6301,7 @@
     "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
     "m_ObjectId": "fa3937eda3164f039ff070f39e2c1948",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
     },
     "m_Name": "One Minus",
     "m_DrawState": {
