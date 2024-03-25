@@ -25,8 +25,7 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _USE_SCREEN_SPACE
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -70,10 +69,10 @@ Material:
     - _Scale_x: 1
     - _Scale_y: 1
     - _Smoothness: 0.21
-    - _Smoothness_increase: 0.4
+    - _Smoothness_increase: 0.677
     - _Specular_Smoothness: 0.41
     - _Strength: 1
-    - _USE_SCREEN_SPACE: 1
+    - _USE_SCREEN_SPACE: 0
     - _Use_Gradient: 1
     - _Use_SunLight: 1
     - _Use_colour: 1

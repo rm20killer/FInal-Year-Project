@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hand_painted_Lit_test
-  m_Shader: {fileID: -6465566751694194690, guid: 21b0833737af3c64c82b3a60967a24cc,
+  m_Name: Hand_painted_Lit_test 1
+  m_Shader: {fileID: -6465566751694194690, guid: 302bb05f4689e2144a403d26a1a2de30,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
