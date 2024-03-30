@@ -49,6 +49,6 @@ Material:
     - _NormalThickness: 11.1
     - _NormalThreshold: 0.192
     - _Wobble: 0.001
-    - _thickness: 5
+    - _thickness: 15
     m_Colors: []
   m_BuildTextureStacks: []
