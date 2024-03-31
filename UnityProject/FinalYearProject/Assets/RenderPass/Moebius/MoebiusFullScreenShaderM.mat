@@ -42,13 +42,16 @@ Material:
     m_Floats:
     - REQUIRE_DEPTH_TEXTURE: 1
     - _DepthStrength: 15
-    - _DepthThickness: 1
-    - _DepthThreshold: 0.5
+    - _DepthThickness: 2
+    - _DepthThreshold: 0.012
     - _NoiseScale: 30
-    - _NormalStrength: 15
-    - _NormalThickness: 11.1
-    - _NormalThreshold: 0.192
+    - _NormalStrength: 14.6
+    - _NormalThickness: 2.36
+    - _NormalThreshold: 1.8
+    - _ThicknessNoise: 14.3
+    - _ThicknessNoiseScale: 4.66
+    - _ThicknessScale: 1
     - _Wobble: 0.001
-    - _thickness: 15
+    - _thickness: 4.92
     m_Colors: []
   m_BuildTextureStacks: []
