@@ -355,7 +355,11 @@
             "m_Id": "06f17839da5241b29bca1fd031bbbb25"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "e18170f66d034de3ad5e1c18441151ec"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -1862,10 +1866,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 368.0000305175781,
-            "y": 490.39996337890627,
-            "width": 208.00003051757813,
-            "height": 359.20001220703127
+            "x": 264.00006103515627,
+            "y": 501.0,
+            "width": 207.999755859375,
+            "height": 360.99993896484377
         }
     },
     "m_Slots": [
@@ -4768,10 +4772,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2632.800048828125,
-            "y": 1928.0001220703125,
+            "x": -2654.0,
+            "y": 1941.9998779296875,
             "width": 208.0,
-            "height": 325.5999755859375
+            "height": 325.9998779296875
         }
     },
     "m_Slots": [
@@ -8552,10 +8556,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2368.000244140625,
-            "y": 1928.0001220703125,
-            "width": 208.000244140625,
-            "height": 301.5999755859375
+            "x": -2387.0,
+            "y": 1941.9998779296875,
+            "width": 208.0,
+            "height": 301.9998779296875
         }
     },
     "m_Slots": [
@@ -10254,6 +10258,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "e18170f66d034de3ad5e1c18441151ec",
+    "m_Title": "Crosshashing",
+    "m_Content": "check brightness and depending on brightness add cross hashing.\nThe darker the more hashing.\n\nLooks werid tried both normal and in object\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1194.0,
+        "y": 2274.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "06f17839da5241b29bca1fd031bbbb25"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "e20bc62d763241e38f93bd6eb8094c2a",
     "m_Id": 0,
@@ -11303,10 +11327,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2072.800048828125,
-            "y": 1928.0001220703125,
-            "width": 207.9998779296875,
-            "height": 277.5999755859375
+            "x": -2108.0,
+            "y": 1941.9998779296875,
+            "width": 208.0,
+            "height": 278.0001220703125
         }
     },
     "m_Slots": [
