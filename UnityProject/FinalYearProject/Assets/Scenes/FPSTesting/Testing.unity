@@ -1202,9 +1202,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1f6c9433213ffd45a5fda4d220bdff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 21d7b01b2d1fa6b48ba6bc991241f340, type: 2}
+  material: {fileID: 2100000, guid: f72b31bc9fb77e648a2eebe3c3113e5b, type: 2}
   Objects: {fileID: 816146768}
   speed: 0.005
+  colourReference: _BaseColour
 --- !u!4 &192795045
 Transform:
   m_ObjectHideFlags: 0

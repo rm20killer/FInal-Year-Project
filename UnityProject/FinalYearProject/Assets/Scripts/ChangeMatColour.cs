@@ -9,10 +9,12 @@ public class ChangeMatColour : MonoBehaviour
     public GameObject Objects;
     public float speed = 0.02f;
     private Vector4 Oldcolour;
+    public string colourReference = "_Colour";
      // Start is called before the first frame update
     void Start()
     {
-        Oldcolour = material.color;
+        //get material of object
+        Oldcolour = material.GetColor(colourReference);
         //get children of the object in objects
         foreach (Transform child in Objects.transform)
         {
@@ -37,6 +39,7 @@ public class ChangeMatColour : MonoBehaviour
 
     void ColourChange()
     {
-        material.color = Color.Lerp(Color.black, Color.red, Mathf.PingPong(Time.time, 1));
+        material.SetColor( colourReference, Color.Lerp(Color.black, Color.red, Mathf.PingPong(Time.time, 1)));
+        // material.color = Color.Lerp(Color.black, Color.red, Mathf.PingPong(Time.time, 1));
     }
 }
