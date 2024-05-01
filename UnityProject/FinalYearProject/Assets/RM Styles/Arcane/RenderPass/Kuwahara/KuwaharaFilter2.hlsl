@@ -18,7 +18,7 @@ float3 gaussianblur(float3 input, float strength, float Radius)
     float weights[5] = { 0.1216f, 0.2716f, 0.3838f, 0.2716f, 0.1216f };
     float3 SampleBlur = float3(0.0, 0.0, 0.0);
 
-    for (int i = -2; i <= 2; ++i)
+    [unroll] for (int i = -2; i <= 2; ++i)
     {
         float offset = i * Radius * strength; 
         float3 sampleColour = input + float3(offset, 0, 0);

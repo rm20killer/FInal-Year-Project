@@ -47,5 +47,5 @@ Material:
     - _NormalThreshold: 1.8
     - _Thickness: 7.94
     m_Colors:
-    - _Colour: {r: 0, g: 0, b: 0, a: 0}
+    - _Colour: {r: 0.7924528, g: 0.025418244, b: 0.025418244, a: 0}
   m_BuildTextureStacks: []

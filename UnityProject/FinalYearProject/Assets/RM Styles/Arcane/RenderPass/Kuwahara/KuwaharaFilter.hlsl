@@ -4,7 +4,7 @@
     float luminance_sum2 = 0.0f;
     float3 col_sum =  float3(0,0,0);
     
-    for (int x = x1; x <= x2; ++x) {
+     [unroll] for (int x = x1; x <= x2; ++x) {
         for (int y = y1; y <= y2; ++y) {
             float3 sample = tex2D(MainTex, float4(uv + float2(x, y) / MainTex_Size.xy, 0, 0)).rgb;
             float l = dot(sample, float3(0.299f, 0.587f, 0.114f));

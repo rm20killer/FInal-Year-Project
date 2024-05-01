@@ -23,8 +23,8 @@ void Kuwahara_float(float2 uv, float2 texelSize, float radius, float edgeSharpne
     float gx = 0.0; 
     float gy = 0.0;
     
-    for (int x = -1; x <= 1; x++) {
-        for (int y = -1; y <= 1; y++) {
+    [unroll] for (int x = -1; x <= 1; x++) {
+        [unroll] for (int y = -1; y <= 1; y++) {
 
             float3 TextureSample = SHADERGRAPH_SAMPLE_SCENE_COLOR(uv + float2(x, y) * texelSize);
             float sample = TextureSample.r;
@@ -37,8 +37,8 @@ void Kuwahara_float(float2 uv, float2 texelSize, float radius, float edgeSharpne
     float2 perpendicularDir = normalize(float2(-gradient.y, gradient.x));
 
     colour = float3(perpendicularDir.x, perpendicularDir.y, 0.0);
-    for (int i = -regionHalfSize; i <= regionHalfSize; i++) {
-        for (int y = -regionHalfSize; y <= regionHalfSize; y++) {
+    [unroll] for (int i = -regionHalfSize; i <= regionHalfSize; i++) {
+        [unroll] for (int y = -regionHalfSize; y <= regionHalfSize; y++) {
     
             float2 tlUV = uv + perpendicularDir * texelSize; //topLeft
             float2 trUV = uv + perpendicularDir * texelSize; //topRight
