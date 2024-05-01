@@ -17,52 +17,6 @@ MonoBehaviour:
   injectionPoint: 600
   requirements: 4
   passIndex: 0
---- !u!114 &-5328038427702207639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5c1d5daddbd4329a20f388722452d1e, type: 3}
-  m_Name: SpiderverseRendererFeature
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  settings:
-    IsEnabled: 1
-    WhenToInsert: 550
-    shader: {fileID: -6465566751694194690, guid: bf40879cfb72c204daa20aed18b3a2ca,
-      type: 3}
-    intensity: 1000
-    offset: {x: 0.003, y: 0.003}
-    constrast: 0.9
-    fallOff: 100
-    OutlineSize: 0.05
---- !u!114 &-5283760799586893636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 071ce3c4994de2b4293dec2b417ae1c5, type: 3}
-  m_Name: ChromaticAberration
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  settings:
-    IsEnabled: 1
-    renderPassEvent: 550
-    chromaticAberrationShader: {fileID: -6465566751694194690, guid: 8d9a8e56f23cfa44b8e2efee389b4a0a,
-      type: 3}
-    intensity: 1000
-    offset: {x: 0.003, y: 0.003}
-    constrast: 0.9
-    fallOff: 100
-    OutlineSize: 0.05
 --- !u!114 &-2542344944361654360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,17 +104,13 @@ MonoBehaviour:
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: 8535386265783732504}
   - {fileID: 4650953820221330580}
-  - {fileID: 9205039297351206123}
-  - {fileID: -5283760799586893636}
-  - {fileID: -5328038427702207639}
-  - {fileID: 5283664733193979694}
+  - {fileID: 1924348237033052214}
   - {fileID: -2542344944361654360}
   - {fileID: -968329037450774411}
   - {fileID: -6813514008705879093}
   - {fileID: 1976613630700219972}
-  m_RendererFeatureMap: adc0de57c6d2eee51889c91896c8737694d40991db818b40eb44217678debe7fbc407d1e8c4facb669db2d7747010fb62e4749ae14595349a837d036bec6b7dc75f80cf1decd8ff2cb33f0ce1b8971a144ee14e49f576e1b
+  m_RendererFeatureMap: adc0de57c6d2eee594d40991db818b40361881a486a8b41aa837d036bec6b7dc75f80cf1decd8ff2cb33f0ce1b8971a144ee14e49f576e1b
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -203,6 +153,23 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &1924348237033052214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Spider Verse
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  passMaterial: {fileID: 2100000, guid: 4f955a11aebbabf4f9ed680e746ac1b0, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &1976613630700219972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
   m_Name: MoebiusRenderFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   passMaterial: {fileID: 2100000, guid: 77ea28d6ce5bc5643a9cf9828f77e22b, type: 2}
   injectionPoint: 600
   requirements: 7
@@ -230,7 +197,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 695af583ea1dc064b9bb438fb9df9e6c, type: 3}
-  m_Name: KuwaharaFeature
+  m_Name: KuwaharaFeature cursed
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
@@ -239,60 +206,5 @@ MonoBehaviour:
     shader: {fileID: -6465566751694194690, guid: d40fbf8b05fdc904abfdfe72b93e8d21,
       type: 3}
     radius: 100
-    strength: 2000
+    strength: 10000
     colour_Steps: 0
---- !u!114 &5283664733193979694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b16b1c8d6c52e3a47a42af51cb34bc95, type: 3}
-  m_Name: MoebiusRenderFeature Dont use
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  settings:
-    IsEnabled: 1
-    WhenToInsert: 550
-    shader: {fileID: -6465566751694194690, guid: c99fe63557d6cb6458ce99da14e528c9,
-      type: 3}
---- !u!114 &8535386265783732504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f160a10e9b931a43a5db69e6ba13647, type: 3}
-  m_Name: ImpactEffect
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  settings:
-    IsEnabled: 1
-    WhenToInsert: 550
-    shader: {fileID: -6465566751694194690, guid: dc2e5c94d20ee72418759124d95807ca,
-      type: 3}
---- !u!114 &9205039297351206123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e605dbdb54499f9adba0d73b225819, type: 3}
-  m_Name: OutlineFeature
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  settings:
-    IsEnabled: 1
-    renderPassEvent: 550
-    OutlineShader: {fileID: -6465566751694194690, guid: 51fd179761cad5941afe3bc598e64ab5,
-      type: 3}
-    OutlineSize: 0.1
