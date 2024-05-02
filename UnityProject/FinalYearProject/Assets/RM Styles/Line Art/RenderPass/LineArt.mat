@@ -42,9 +42,9 @@ Material:
     m_Floats:
     - _DepthStrength: 15
     - _DepthThickness: 2
-    - _DepthThreshold: 0.012
+    - _DepthThreshold: 0.002
     - _DotSize: 100
-    - _Dot_Rotation: 0
+    - _Dot_Rotation: 500
     - _NoiseScale: 40
     - _NormalStrength: 34.2
     - _NormalThickness: 2.36
@@ -54,5 +54,6 @@ Material:
     - _ThicknessNoiseScale: 1
     - _Wobble: 0.001
     - _thickness: 6.5
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -6059,6 +6059,9 @@
             "m_Id": "cfe2048680da49d29f4a3ef3f87a7bc5"
         },
         {
+            "m_Id": "8a1aee2951a9468ba0949b67410450b6"
+        },
+        {
             "m_Id": "d343b5b6d0e141a3961c4e2de4b36e0b"
         }
     ],
@@ -6073,11 +6076,13 @@
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"3c175867193005546b6db356f14bcaf9\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
         "a1072d3a-c303-421f-aabf-480cc29b0b45",
-        "f6d6d05c-6948-4e18-8c03-09eaf5eed59a"
+        "f6d6d05c-6948-4e18-8c03-09eaf5eed59a",
+        "8905ab7c-e9ff-42f9-8c56-71af72363cbb"
     ],
     "m_PropertyIds": [
         -1436825007,
-        -938322835
+        -938322835,
+        -542039427
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -7667,6 +7672,21 @@
         "x": 0.0,
         "y": 0.0
     },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "8a1aee2951a9468ba0949b67410450b6",
+    "m_Id": -542039427,
+    "m_DisplayName": "Radius",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Radius",
+    "m_StageCapability": 3,
+    "m_Value": 1.0,
+    "m_DefaultValue": 0.0,
     "m_Labels": []
 }
 
@@ -11051,10 +11071,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "d343b5b6d0e141a3961c4e2de4b36e0b",
     "m_Id": 1,
-    "m_DisplayName": "Out_Vector4",
+    "m_DisplayName": "Blur",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "Out_Vector4",
+    "m_ShaderOutputName": "Blur",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
