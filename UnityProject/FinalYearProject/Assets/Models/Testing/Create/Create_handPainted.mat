@@ -151,12 +151,12 @@ Material:
     - _Scale_y: 0.5
     - _Smoothness: 2.73
     - _SmoothnessTextureChannel: 0
-    - _Smoothness_increase: 0.531
+    - _Smoothness_increase: 0.207
     - _SpecularHighlights: 1
     - _Specular_Smoothness: 7.84
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Strength: 1.203
+    - _Strength: 0.78
     - _Surface: 0
     - _USE_SCREEN_SPACE: 0
     - _Use_Gradient: 1

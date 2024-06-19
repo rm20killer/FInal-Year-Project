@@ -53,15 +53,15 @@ Material:
     - _Falloff_Threshold_1: 2.5
     - _Lit_Threshold: 0.2
     - _Lit_Threshold_1: 0.2
-    - _MinDistance: 0.85
+    - _MinDistance: 14.9
     - _Rotation: 8.1
     - _Rotation_1: -2
-    - _Size: 25.47
-    - _Size_dots: 28.03
+    - _Size: 26.51
+    - _Size_dots: 65.6
     - _Smoothness: 2.19
     - _Softness: 0.73
     - _USE_SCREEN_SPACE: 1
     m_Colors:
-    - _BaseColour: {r: 0.6415094, g: 0.6156606, b: 0.3655393, a: 0}
+    - _BaseColour: {r: 0.9622642, g: 0.8884258, b: 0.21333215, a: 0}
     - _Base_Colour: {r: 0.7973099, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

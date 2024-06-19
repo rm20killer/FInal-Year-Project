@@ -43,7 +43,7 @@ Material:
     - _DepthStrength: 15
     - _DepthThickness: 2
     - _DepthThreshold: 0.002
-    - _DotSize: 100
+    - _DotSize: 95.68
     - _Dot_Rotation: 500
     - _NoiseScale: 40
     - _NormalStrength: 34.2

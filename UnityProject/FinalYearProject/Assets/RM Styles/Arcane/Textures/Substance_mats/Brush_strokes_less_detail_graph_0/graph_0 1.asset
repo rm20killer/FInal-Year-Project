@@ -63,11 +63,11 @@ MonoBehaviour:
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Brush_strokes\" label=\"\" >\n 
     <presetinput identifier=\"$outputsize\" uid=\"1192950856\" type=\"8\" value=\"10,10\"
-    />\n  <presetinput identifier=\"$randomseed\" uid=\"275311130\" type=\"4\" value=\"5502\"
+    />\n  <presetinput identifier=\"$randomseed\" uid=\"275311130\" type=\"4\" value=\"8224\"
     />\n  <presetinput identifier=\"BrushStroke_1_Size_xy\" uid=\"618956336\" type=\"1\"
     value=\"-0.17,1\" />\n  <presetinput identifier=\"Vecor_Map_scale\" uid=\"618957926\"
-    type=\"4\" value=\"14\" />\n  <presetinput identifier=\"Tile_x\" uid=\"618815894\"
-    type=\"4\" value=\"32\" />\n  <presetinput identifier=\"Tile_y\" uid=\"618815912\"
+    type=\"4\" value=\"25\" />\n  <presetinput identifier=\"Tile_x\" uid=\"618815894\"
+    type=\"4\" value=\"31\" />\n  <presetinput identifier=\"Tile_y\" uid=\"618815912\"
     type=\"4\" value=\"32\" />\n  <presetinput identifier=\"Tile_position_random\"
     uid=\"618815910\" type=\"0\" value=\"9.95\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 1
-        Data: 14
+        Data: 25
         NumericalDescription:
           DefaultValue: 3
           MinValue: 1
@@ -203,7 +203,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 1
-        Data: 32
+        Data: 31
         NumericalDescription:
           DefaultValue: 16
           MinValue: 1

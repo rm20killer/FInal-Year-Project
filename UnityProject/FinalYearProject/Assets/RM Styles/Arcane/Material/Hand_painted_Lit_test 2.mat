@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hand_painted_Lit_test 2
-  m_Shader: {fileID: -6465566751694194690, guid: 302bb05f4689e2144a403d26a1a2de30,
+  m_Shader: {fileID: -6465566751694194690, guid: 21b0833737af3c64c82b3a60967a24cc,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -78,14 +78,14 @@ Material:
     - _Smoothness: 4.63
     - _Smoothness_increase: 0.208
     - _Specular_Smoothness: 2.81
-    - _Strength: 0.369
+    - _Strength: 0.43
     - _USE_SCREEN_SPACE: 0
     - _Use_Gradient: 1
     - _Use_SunLight: 1
     - _Use_colour: 0
     m_Colors:
     - _Color: {r: 0.18431373, g: 0.043137256, b: 0.20000002, a: 1}
-    - _Colour1: {r: 0.18549323, g: 0.04412217, b: 0.199, a: 0}
+    - _Colour1: {r: 0, g: 0, b: 0, a: 0}
     - _Colour2: {r: 0.44757137, g: 0.10820409, b: 0.482, a: 0}
     - _Colour3: {r: 0.6347783, g: 0.15099093, b: 0.681, a: 0}
     - _Colour4: {r: 0.420462, g: 0.14943892, b: 0.674, a: 0}

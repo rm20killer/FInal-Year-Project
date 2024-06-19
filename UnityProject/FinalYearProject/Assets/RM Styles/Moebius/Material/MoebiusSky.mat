@@ -65,9 +65,9 @@ Material:
     - _QueueOffset: 0
     - _SPECULAR: 1
     - _SUN: 1
-    - _SpecularReflection: 0.9995
+    - _SpecularReflection: 0.9993
     - _Texture_Overlay: 0
-    - _TopBlend: 0.6
+    - _TopBlend: 0.46
     - _USE_NORMAL_TEXTURE: 0
     - _USE_TEXUTRE: 0
     m_Colors:
@@ -76,7 +76,7 @@ Material:
     - _Grident_Range: {r: 500, g: 0, b: 0, a: 0}
     - _HorizonColour: {r: 0.38458523, g: 0.47335672, b: 0.735849, a: 0}
     - _Normal_Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _SpecularColour: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColour: {r: 0.6792453, g: 0.5859118, b: 0.24606618, a: 0}
     - _Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5637822856160392291

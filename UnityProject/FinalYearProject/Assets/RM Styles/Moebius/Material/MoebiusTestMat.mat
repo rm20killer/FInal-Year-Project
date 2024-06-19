@@ -14,6 +14,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _SPECULAR
+  - _USE_NORMAL_TEXTURE
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -61,7 +62,7 @@ Material:
     - _SPECULAR: 1
     - _SpecularReflection: 0.995
     - _Texture_Overlay: 1
-    - _USE_NORMAL_TEXTURE: 0
+    - _USE_NORMAL_TEXTURE: 1
     - _USE_TEXUTRE: 0
     m_Colors:
     - _Base_Colour: {r: 0, g: 1, b: 0.11764717, a: 0}

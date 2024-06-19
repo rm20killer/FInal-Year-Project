@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-497136418145676221
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hand_painted_Lit_test 3
+  m_Shader: {fileID: -6465566751694194690, guid: 21b0833737af3c64c82b3a60967a24cc,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Base_Colour:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Paint_stoke:
+        m_Texture: {fileID: 2800000, guid: cc6ed2a6a23eb4c4f81d9055f0e0651c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Location1: 0.276
+    - _Location2: 0.547
+    - _Location3: 0.663
+    - _Location4: 0.801
+    - _Location5: 0.894
+    - _Normal_strength: 1
+    - _Overlay_Opactity: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Scale: 4
+    - _Scale_x: 1
+    - _Scale_y: 1
+    - _Smoothness: 4.63
+    - _Smoothness_increase: 0.546
+    - _Specular_Smoothness: 2.81
+    - _Strength: 0.67
+    - _USE_SCREEN_SPACE: 0
+    - _Use_Gradient: 1
+    - _Use_SunLight: 1
+    - _Use_colour: 1
+    m_Colors:
+    - _Color: {r: 0.185404, g: 0.48842645, b: 0.8773585, a: 1}
+    - _Colour1: {r: 0.9716981, g: 0.61983985, b: 0.48034883, a: 0}
+    - _Colour2: {r: 0.754717, g: 0.052687764, b: 0.3984802, a: 0}
+    - _Colour3: {r: 0.8115497, g: 0.03529414, b: 0.8784314, a: 0}
+    - _Colour4: {r: 0.48627397, g: 0.109255925, b: 0.9339623, a: 0}
+    - _Colour5: {r: 0.7580634, g: 0.7924528, b: 0.7924528, a: 1}
+    - _Diffuse_Colour: {r: 0.18431373, g: 0.043137256, b: 0.20000002, a: 0}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular_1: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

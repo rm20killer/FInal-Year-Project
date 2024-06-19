@@ -11,7 +11,7 @@ public class MouseLock : MonoBehaviour
     void Start()
     {
         //set fps to unlimited
-        Application.targetFrameRate = 300;
+        // Application.targetFrameRate = 300;
         Cursor.lockState = CursorLockMode.Locked;
     }
     void Update()
